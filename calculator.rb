@@ -28,8 +28,6 @@ end
 
 
 
-results = ""
-
 ask("Please enter first number: ")
 num1 = gets.chomp
 
