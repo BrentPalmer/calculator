@@ -7,22 +7,21 @@ def math(num1, num2, selector)
 
   if selector == "1"
 
-    results = num1.to_i + num2.to_i
+    num1.to_i + num2.to_i
 
   elsif selector == "2"
 
-    results = num1.to_i - num2.to_i
+    num1.to_i - num2.to_i
 
   elsif selector == "3"
 
-    results = num1.to_i * num2.to_i
+    num1.to_i * num2.to_i
 
   else selector == "4"
 
-    results = num1.to_f / num2.to_f
+    num1.to_f / num2.to_f
   end
 
-return results
 
 end
 
